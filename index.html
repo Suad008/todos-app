@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <!-- app icon is below -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="to-do-list-svgrepo-com.svg" />
+    <!-- google fonts below -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form id="new-task">
+        <input
+          type="text"
+          placeholder="Enter the task here!"
+          name="content"
+          id="content"
+        />
+        <button id="push" type="submit">Add</button>
+      </form>
+      <div id="tasks">
+        <div id="list"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
